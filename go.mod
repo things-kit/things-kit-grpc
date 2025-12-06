@@ -6,7 +6,7 @@ toolchain go1.24.4
 
 require (
 	github.com/spf13/viper v1.21.0
-	github.com/things-kit/core v0.0.0
+	github.com/things-kit/core v0.1.0
 	go.uber.org/fx v1.24.0
 	google.golang.org/grpc v1.60.1
 )
@@ -35,4 +35,3 @@ require (
 
 // Replace with local path for development
 // Remove this before publishing
-replace github.com/things-kit/core => ../things-kit
